@@ -1,0 +1,177 @@
+/* Write your CSS here */
+.productItemDetailsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+.productDetailsSuccessView {
+  width: 80%;
+}
+
+.productDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.productImage {
+  border-radius: 15px;
+  flex-shrink: 0;
+  max-width: 540px;
+  max-height: 576px;
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .product {
+    width: 50%;
+  }
+}
+
+.productName {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.priceDetails {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.ratingAndReviewsCount {
+  display: flex;
+  align-items: center;
+}
+
+.reviewsCount {
+  color: #12022f;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+.productDescription {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.labelValueContainer {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.label {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.value {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.horizontalLine {
+  border-top: 1px solid #cbced2;
+}
+
+.quantityContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quantityControllerButton {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.quantityControllerIcon {
+  color: #616e7c;
+  width: 15px;
+  height: 15px;
+}
+
+.quantity {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.addToCartButton {
+  font-size: 15px;
+  margin-bottom: 48px;
+}
+
+.similarProductsHeading {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.similarProductsList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.productDetailsLoaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.productDetailsFailureViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.failureViewImage {
+  width: 550px;
+  height: 300px;
+}
+
+.productNotFoundHeading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 50px;
+}
