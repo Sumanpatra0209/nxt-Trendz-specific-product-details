@@ -89,7 +89,7 @@ class ProductItemDetails extends Component {
   renderFailureView = () => (
     <div className="productDetailsFailureViewContainer">
       <img
-        alt="error view"
+         alt="failure view"
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png"
         className="failureViewImage"
       />
